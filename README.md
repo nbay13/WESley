@@ -78,7 +78,7 @@ nextflow -C /path/to/nextflow.config run data_processing.nf -entry DATA_PROCESSI
 Use `make_mc_manifest.py` to generate the JSON manifest required by the mutation calling workflow. Two platforms are supported:
 
 #### Local (filesystem)
-* NOTE: Normal BAMs must be stored in the `normals/` subdirectory under `--bam_dir`
+* NOTE: Normal BAMs must be stored in the `normals/` subdirectory under `--bam_dir` 
 
 ```bash
 python make_mc_manifest.py --platform local \
